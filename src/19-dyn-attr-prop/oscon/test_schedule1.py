@@ -4,7 +4,7 @@ import pytest
 import schedule1 as schedule
 
 
-@pytest.yield_fixture
+@pytest.fixture
 def db():
     with shelve.open(schedule.DB_NAME) as the_db:
         if schedule.CONFERENCE not in the_db:
