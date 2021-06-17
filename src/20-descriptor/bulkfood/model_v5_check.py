@@ -1,6 +1,8 @@
 import abc
 
 
+# Template method
+
 class AutoStorage:
     __counter = 0
 

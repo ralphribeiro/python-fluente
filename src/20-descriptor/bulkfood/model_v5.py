@@ -1,6 +1,7 @@
 # BEGIN MODEL_V5
 import abc
 
+# Template method
 
 class AutoStorage:  # <1>
     __counter = 0
